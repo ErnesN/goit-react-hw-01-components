@@ -1,0 +1,26 @@
+.profile {
+    text-align: center;
+    width: 300px;
+    background-color: aquamarine;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px 0;
+}
+.avatar {
+    width: 200px;
+    
+}
+.description {
+    color: blue;
+font-weight: 500;
+}
+.stats {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: aqua;
+
+}
+.item {
+    display: block;
+}

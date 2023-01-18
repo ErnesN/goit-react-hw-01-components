@@ -1,12 +1,11 @@
 import User from './components/User/User';
-import Header from 'components/Header/Header';
-
-import user from './data/user.json';
+import Stat from './components/Statistics/Stat';
+import user from './path/user.json';
+import data from './path/data.json';
 
 function App() {
   return (
     <>
-      <Header />
       <User
         key={user.tag}
         username={user.username}
@@ -15,6 +14,7 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Stat title="" items={data} />
     </>
   );
 }
