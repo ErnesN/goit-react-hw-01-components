@@ -1,3 +1,15 @@
-.section {
-    background-color: blueviolet;
+.statistics {
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid green;
+
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+
+    justify-content: center;
 }
